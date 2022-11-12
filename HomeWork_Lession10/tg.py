@@ -5,7 +5,7 @@ import excellentStudent as exS
 import femail as femail
 import noSubject as noS
 
-API_TOKEN='5567055923:AAFyhcXgPc9iL0WrGrUNNiuLzbX_Ym9Fr2M'
+API_TOKEN=''
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
